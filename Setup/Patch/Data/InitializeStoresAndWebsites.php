@@ -65,6 +65,7 @@ class InitializeStoresAndWebsites implements DataPatchInterface
      */
     public function apply()
     {
+        $this->moduleDataSetup->getConnection()->startSetup();
         try {
             // reduce issue with default website
             $this->updateMainWebsite();
@@ -75,6 +76,7 @@ class InitializeStoresAndWebsites implements DataPatchInterface
         } catch (\Exception $e) {
             throw $e;
         }
+        $this->moduleDataSetup->getConnection()->endSetup();
     }
 
     /**

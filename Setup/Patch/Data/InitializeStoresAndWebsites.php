@@ -16,13 +16,13 @@ class InitializeStoresAndWebsites implements DataPatchInterface
     public const DEFAULT_WEBSITE_ID = 1;
     public const DEFAULT_GROUP_ID = 1;
     public const DEFAULT_STORE_ID = 1;
-    public const AU_WEBSITE_NAME = 'Hard Yakka AU';
+    public const AU_WEBSITE_NAME = 'Website AU';
     public const AU_WEBSITE_CODE = 'hy_au';
     public const AU_STORE_NAME = 'Australia Store';
     public const AU_STORE_CODE = 'hy_au_store';
     public const AU_STORE_VIEW_NAME = 'English AU';
     public const AU_STORE_VIEW_CODE = 'au_en';
-    public const NZ_WEBSITE_NAME = 'Hard Yakka NZ';
+    public const NZ_WEBSITE_NAME = 'Website NZ';
     public const NZ_WEBSITE_CODE = 'hy_nz';
     public const NZ_STORE_NAME = 'New Zealand Store';
     public const NZ_STORE_CODE = 'hy_nz_store';
